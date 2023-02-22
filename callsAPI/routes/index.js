@@ -5,6 +5,7 @@ const getFreelances = require('../controllers/freelances')
 const getFreelance = require('../controllers/freelance')
 const getResults = require('../controllers/results')
 
+
 router.get('/survey', function (req, res) {
 	const surveyData = getSurvey()
 		if (!surveyData) {

@@ -1,6 +1,6 @@
 const surveyData = require('../models/survey')
 
-function getSurvey() {
+function getSurvey() {	
 	// return surveyData[questionNumber]
 	return surveyData
 }

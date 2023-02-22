@@ -1,4 +1,6 @@
-// ce code utilise le hook -useEffect- dans le composant  Survey()
+//Dans cette branche, on utilise une API pour récuperer le questionnaire contenu
+// dans le composant survey() et on utilise le hook -useEffect- dans ce composant
+// voir code dans le fichier index.js du component survey
 import { useParams } from 'react-router-dom'
 import { Link } from 'react-router-dom'
 import { useState, useEffect } from "react";
@@ -40,7 +42,7 @@ function Survey() {
   const [surveyData, setSurveyData] = useState({})
   const [isDataLoading, setDataLoading] = useState(false)
   const [error, setError] = useState(false)
-
+   
 
   useEffect(() => {
     async function fetchSurvey() {
