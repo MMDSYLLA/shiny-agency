@@ -1,3 +1,5 @@
+// On utilise ici des liens-Links- pour naviguer entre les questions
+// ce qui correspond au fichier ===index1.jsx=== dans la page === survey===
 import { useParams } from 'react-router-dom'
 import { Link } from 'react-router-dom'
 
@@ -10,8 +12,8 @@ function Survey() {
 
   return (
     <div>
-      <h1>Questionnaire 🧮</h1>
-      <h2>Question {questionNumber}</h2>
+      <h1>Questionnaire survey-link 🧮</h1>
+      <h2>Question{questionNumber}</h2>
       <Link to={`/survey/${prevQuestionNumber}`}>Précédent</Link> < b />
       {questionNumberInt === 10 ? (
         <Link to="/results">Résultats</Link>
