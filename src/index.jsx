@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom'
 import { BrowserRouter as Router,Route } from 'react-router-dom'
 //import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home'
-import Survey from './pages/survey/index1'
+import Survey from './pages/survey/index-link'
 import Header from './components/Header'
 
 
